@@ -1,3 +1,2 @@
 #!bin/bash
-id
-
+ldapwhoami -Q | cut -c4-
